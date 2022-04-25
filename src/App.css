@@ -138,7 +138,9 @@ ul li {
 
 /* small mobile layout */
 
-.homePage img {
+.homePage img,
+.about img,
+.contactForm img {
   max-width: 18rem;
 }
 
@@ -146,10 +148,54 @@ ul li {
   padding-inline-start: 0;
 }
 
+.about {
+  padding: 0 2rem;
+}
+
+.about a,
+.contactForm a {
+  font-weight: bold;
+  color: #fff;
+  text-decoration: none;
+}
+
+.about a:hover,
+.contactForm a:hover {
+  color: #b70202;
+}
+
+.contactForm input,
+.contactForm textarea {
+  padding: 0.5rem;
+  margin-bottom: 1rem;
+  font-family: "Open Sans", Arial, Helvetica, sans-serif;
+  max-width: 19rem;
+}
+
+.contactForm {
+  padding: 1rem;
+}
+
+.contactForm button {
+  padding: 0.7rem 2rem;
+  font-weight: bold;
+  background-image: linear-gradient(#b70202, #8c0303);
+  color: #fff;
+  border: 1px solid #b70202;
+  border-radius: 0.5rem;
+}
+
+.contactForm button:hover {
+  background-image: linear-gradient(#8c0303, #b70202);
+  cursor: pointer;
+}
+
 /* mobile layout */
 
 @media only screen and (min-width: 20rem) {
-  .homePage img {
+  .homePage img,
+  .about img,
+  .contactForm img {
     max-width: 38rem;
     width: 100%;
   }
@@ -426,13 +472,6 @@ ul li {
     float: left;
   }
 
-  .contactForm input,
-  .contactForm textarea {
-    padding: 0.5rem;
-    margin-bottom: 1rem;
-    font-family: "Open Sans", Arial, Helvetica, sans-serif;
-  }
-
   .contactForm label {
     color: #fff;
   }
@@ -474,6 +513,13 @@ ul li {
   .managementBlock img,
   .about img {
     margin-top: 3rem;
+  }
+
+  .homePage img,
+  .about img,
+  .contactForm img {
+    max-width: 40rem;
+    width: 100%;
   }
 
   .about a,
