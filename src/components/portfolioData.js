@@ -99,7 +99,7 @@ const portfolioData = {
   },
   "anani-online-branding": {
     name: "Anani Online",
-    subtitle: "Branding and Website Design",
+    subtitle: "Brand & Website Design",
     projectBrief:
       "Create branding suitable for usage on a website still to be designed and built.",
     description: `<p>This project was to be completed in a way that would allow for the symbol to stand alone, and for both versions to be easily identifiable, while fitting within a standard customer expectation.</p>

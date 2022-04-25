@@ -407,7 +407,7 @@ ul li {
     grid-template-rows: auto;
     grid-template-areas: "blockLeft blockRight";
     text-align: left;
-    padding: 2rem;
+    padding: 0 2rem;
   }
 
   /* end of grid styling */
