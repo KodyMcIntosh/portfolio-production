@@ -99,6 +99,26 @@ ul li {
   padding-bottom: 0.5rem;
 }
 
+.portfolioTitle {
+  text-align: left;
+  border: none;
+  padding-left: 4rem;
+}
+
+.portfolioIntro {
+  padding-left: 4rem;
+}
+
+.portfolioIntro a {
+  color: #fff;
+  font-weight: bold;
+  text-decoration: none;
+}
+
+.portfolioIntro a:hover {
+  color: #b70202;
+}
+
 .testimonials {
   padding: 2rem;
 }
