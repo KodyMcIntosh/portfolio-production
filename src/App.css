@@ -93,6 +93,12 @@ ul li {
   margin: 1.5rem;
 }
 
+.portfolioIndexTitle h3 {
+  font-size: 1.5rem;
+  border-bottom: 2px solid #b70202;
+  padding-bottom: 0.5rem;
+}
+
 .testimonials {
   padding: 2rem;
 }
