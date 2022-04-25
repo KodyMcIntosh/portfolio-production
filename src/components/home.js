@@ -7,6 +7,9 @@ import kodyProfile from "../img/profile4.png";
 import computerDev from "../img/computer-dev.png";
 import phoneCreative from "../img/phone-creative.png";
 import managementIcon from "../img/management.png";
+import divider1 from "../img/divider2.png";
+import divider2 from "../img/divider3.png";
+import divider3 from "../img/divider4.png";
 
 const HomePage = () => {
   return (
@@ -44,6 +47,10 @@ const HomePage = () => {
         <div className="homePhoto">
           <img src={kodyProfile} alt="Kody McIntosh" />
         </div>
+      </div>
+
+      <div className="divider">
+        <img src={divider1} alt="neon divider" />
       </div>
 
       <div className="creativeBlock">
@@ -84,6 +91,10 @@ const HomePage = () => {
             </ul>
           </p>
         </div>
+      </div>
+
+      <div className="divider">
+        <img src={divider2} alt="neon divider" />
       </div>
 
       <div className="technicalBlock">
@@ -128,12 +139,17 @@ const HomePage = () => {
         </div>
       </div>
 
+      <div className="divider">
+        <img src={divider3} alt="neon divider" />
+      </div>
+
       <div className="managementBlock">
         <div className="blockLeft">
           <p>
             <img src={managementIcon} alt="people at desks in illustration" />
           </p>
         </div>
+
         <div className="blockRight">
           <h2 className="blockHeading">Project Management</h2>
           <p>
