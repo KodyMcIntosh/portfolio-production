@@ -326,6 +326,15 @@ ul li {
   .testimonials p {
     line-height: 1.8rem;
   }
+
+  .contactForm input,
+  .contactForm textarea {
+    max-width: 38rem;
+  }
+
+  .contactForm textarea {
+    min-height: 5rem;
+  }
 }
 
 /* tablet layout */
