@@ -23,7 +23,7 @@ h2 {
 }
 
 .portfolio h3 {
-  background-color: #8c0303;
+  background-color: rgba(140, 3, 3, 0.75);
   padding: 1rem;
 }
 
@@ -42,11 +42,6 @@ p {
 
 h2 {
   font-size: 2rem;
-}
-
-.button a {
-  background-color: #b70202;
-  padding: 1rem;
 }
 
 .homeIntro {
@@ -103,6 +98,10 @@ ul li {
   text-align: left;
   border: none;
   padding-left: 4rem;
+}
+
+.portfolioIndex a {
+  text-decoration: none;
 }
 
 .portfolioIntro {
@@ -335,6 +334,12 @@ ul li {
   .contactForm textarea {
     min-height: 5rem;
   }
+
+  .contactForm,
+  .about,
+  .portfolio {
+    margin-bottom: 3rem;
+  }
 }
 
 /* tablet layout */
@@ -494,6 +499,18 @@ ul li {
     color: #fff;
     border: 1px solid #b70202;
     border-radius: 0.5rem;
+  }
+
+  .button {
+    background-image: linear-gradient(#b70202, #8c0303);
+    font-weight: bold;
+    border: 1px solid #b70202;
+    border-radius: 0.5rem;
+    padding: 0.7rem 2rem;
+  }
+
+  .button a {
+    color: #fff;
   }
 
   .contactForm button:hover {
