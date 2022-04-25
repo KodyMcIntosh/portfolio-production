@@ -136,137 +136,150 @@ ul li {
   width: 100%;
 }
 
-/* mobile layout */
+/* small mobile layout */
 
 .homePage img {
-  max-width: 38rem;
-}
-
-.homePage,
-.itemInfo {
-  padding: 2rem;
-}
-
-.homeIntro h1 {
-  padding-top: 0;
-}
-
-.mobileNavigation {
-  grid-area: mobileNavigation;
-}
-
-.desktopNav {
-  display: none;
-}
-
-.headerContainer .contentContainer {
-  display: grid;
-  grid-template-columns: 4fr 1fr;
-  grid-template-rows: auto;
-  grid-template-areas: "logo mobileNavigation";
-  gap: 0.5rem;
-}
-
-.contentContainer {
-  display: flex;
-}
-
-.hamburger {
-  padding-top: 10px;
-  margin-left: 10px;
-}
-
-.logo {
-  max-width: 15rem;
-  grid-area: logo;
-  padding: 0.5rem 0;
-}
-
-.gallery img {
-  max-width: 28rem;
-  padding: 1rem;
-  box-shadow: 0.5rem 0.5rem 1rem rgba(0, 0, 0, 0.4);
-}
-
-.footerContainer {
-  background-color: #000;
-  color: #fff;
-  padding: 0.5rem;
-  font-weight: bold;
-}
-
-.footerText {
-  padding-right: 0.5rem;
-}
-
-.footerContainer a {
-  color: #fff;
-  text-decoration: none;
-  padding: 0.3rem;
-}
-
-.footerContainer a:hover {
-  color: #b70202;
-}
-
-.topHeaderContainer {
-  background-color: rgba(0, 0, 0, 0.6);
-  color: #fff;
-  padding: 0.7rem 2rem;
-  text-align: right;
-  font-weight: bold;
-}
-
-.topHeaderContainer a,
-.topHeaderContainer a:visited,
-.desktopNav a {
-  color: #fff;
-  font-weight: bold;
-  padding: 0.5rem 1rem;
-  text-decoration: none;
-}
-
-.desktopNav a:hover,
-.topHeaderContainer a:hover {
-  color: #b70202;
-}
-
-.headerContainer {
-  padding: 0 2rem;
-  border-bottom: 2px solid #333;
-}
-
-.testimonials span,
-.testimonialDots,
-.testimonialDots div {
-  display: flex;
-  width: 1rem;
-  height: 1rem;
-  margin: 0.5rem;
-  align-items: center;
-  justify-content: center;
-  cursor: pointer;
-}
-
-.testimonials span::before {
-  content: "";
-  height: 0.5rem;
-  width: 0.5rem;
-  background-color: #666;
-  border-radius: 50%;
-  transition: background-color 0.3s ease;
-}
-
-.testimonials span:hover::before {
-  background-color: #8c0303;
+  max-width: 18rem;
 }
 
 .portfolioGrid ul {
-  list-style-type: none;
+  padding-inline-start: 0;
 }
 
-.testimonials p {
-  line-height: 1.8rem;
+/* mobile layout */
+
+@media only screen and (min-width: 20rem) {
+  .homePage img {
+    max-width: 38rem;
+    width: 100%;
+  }
+
+  .homePage,
+  .itemInfo {
+    padding: 2rem;
+  }
+
+  .homeIntro h1 {
+    padding-top: 0;
+  }
+
+  .mobileNavigation {
+    grid-area: mobileNavigation;
+  }
+
+  .desktopNav {
+    display: none;
+  }
+
+  .headerContainer .contentContainer {
+    display: grid;
+    grid-template-columns: 4fr 1fr;
+    grid-template-rows: auto;
+    grid-template-areas: "logo mobileNavigation";
+    gap: 0.5rem;
+  }
+
+  .contentContainer {
+    display: flex;
+  }
+
+  .hamburger {
+    padding-top: 10px;
+    margin-left: 10px;
+  }
+
+  .logo {
+    max-width: 15rem;
+    grid-area: logo;
+    padding: 0.5rem 0;
+  }
+
+  .gallery img {
+    max-width: 28rem;
+    padding: 1rem;
+    box-shadow: 0.5rem 0.5rem 1rem rgba(0, 0, 0, 0.4);
+  }
+
+  .footerContainer {
+    background-color: #000;
+    color: #fff;
+    padding: 0.5rem;
+    font-weight: bold;
+  }
+
+  .footerText {
+    padding-right: 0.5rem;
+  }
+
+  .footerContainer a {
+    color: #fff;
+    text-decoration: none;
+    padding: 0.3rem;
+  }
+
+  .footerContainer a:hover {
+    color: #b70202;
+  }
+
+  .topHeaderContainer {
+    background-color: rgba(0, 0, 0, 0.6);
+    color: #fff;
+    padding: 0.7rem 2rem;
+    text-align: right;
+    font-weight: bold;
+  }
+
+  .topHeaderContainer a,
+  .topHeaderContainer a:visited,
+  .desktopNav a {
+    color: #fff;
+    font-weight: bold;
+    padding: 0.5rem 1rem;
+    text-decoration: none;
+  }
+
+  .desktopNav a:hover,
+  .topHeaderContainer a:hover {
+    color: #b70202;
+  }
+
+  .headerContainer {
+    padding: 0 2rem;
+    border-bottom: 2px solid #333;
+  }
+
+  .testimonials span,
+  .testimonialDots,
+  .testimonialDots div {
+    display: flex;
+    width: 1rem;
+    height: 1rem;
+    margin: 0.5rem;
+    align-items: center;
+    justify-content: center;
+    cursor: pointer;
+  }
+
+  .testimonials span::before {
+    content: "";
+    height: 0.5rem;
+    width: 0.5rem;
+    background-color: #666;
+    border-radius: 50%;
+    transition: background-color 0.3s ease;
+  }
+
+  .testimonials span:hover::before {
+    background-color: #8c0303;
+  }
+
+  .portfolioGrid ul {
+    list-style-type: none;
+  }
+
+  .testimonials p {
+    line-height: 1.8rem;
+  }
 }
 
 /* tablet layout */
