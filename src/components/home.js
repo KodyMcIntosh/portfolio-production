@@ -162,6 +162,7 @@ const HomePage = () => {
         <PortfolioIndex />
       </div>
       <div className="testimonials">
+        <h2>Testimonials</h2>
         <Testimonials />
       </div>
     </div>

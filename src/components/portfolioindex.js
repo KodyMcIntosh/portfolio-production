@@ -14,6 +14,7 @@ const PortfolioIndex = () => {
               style={{
                 backgroundImage: `url(${featureImage})`,
                 backgroundSize: "cover",
+                backgroundPosition: "center",
               }}
             >
               <Link to={`/portfolio/${slug}`}>

@@ -152,7 +152,7 @@ ul li {
 }
 
 .gallery img {
-  max-width: 40rem;
+  max-width: 28rem;
   padding: 1rem;
   box-shadow: 0.5rem 0.5rem 1rem rgba(0, 0, 0, 0.4);
 }
@@ -239,7 +239,7 @@ ul li {
 }
 
 /* tablet layout */
-@media only screen and (min-width: 60rem) {
+@media only screen and (min-width: 55rem) {
   /* grid areas */
 
   .logo {
@@ -330,9 +330,14 @@ ul li {
   }
 
   .gallery img {
-    max-width: 55rem;
+    max-width: 35rem;
     padding: 1rem;
     box-shadow: 0.5rem 0.5rem 1rem rgba(0, 0, 0, 0.4);
+  }
+
+  .itemInfo {
+    padding: 1rem;
+    padding-left: 0;
   }
 
   .mobileNavigation {
@@ -388,6 +393,8 @@ ul li {
     color: #fff;
   }
 
+  /* elements */
+
   .contactForm button {
     padding: 0.7rem 2rem;
     font-weight: bold;
@@ -442,16 +449,24 @@ ul li {
   .privacyPolicy {
     text-align: left;
   }
+
+  .portfolioGrid ul li {
+    width: 19rem;
+  }
 }
 
 /* desktop layout */
-@media only screen and (min-width: 80rem) {
+@media only screen and (min-width: 85rem) {
   .contentContainer {
     max-width: 80rem;
   }
 
   .portfolioGrid ul li {
-    width: 23rem;
+    width: 21.5rem;
+  }
+
+  .gallery img {
+    max-width: 50rem;
   }
 }
 

@@ -49,7 +49,6 @@ const Testimonials = () => {
           align-items: center;
         `}
       >
-        <h2>Testimonials</h2>
         <p>{currentTestimonial.content}</p>
         <p>{currentTestimonial.author}</p>
         <div className="testimonialDots">
