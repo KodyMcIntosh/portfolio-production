@@ -27,18 +27,16 @@ const HomePage = () => {
             full-stack development more thoroughly.
           </p>
           <p>
-            As a result I am currently studying at The Developers' Institute,
-            doing diplomas in web development and design, as well as software
-            development. This full-stack training is conducted remotely, and
-            taught by active industry professionals. It is geared toward
-            learning how to work in an agile environment, learning what is
-            practical, useful within industry, and what it takes to be
-            successful.
+            I am currently employed as the Learner Success Team Lead at
+            Developers Institute, ensuring that our learners have everything
+            they need to be successful in their studies with us. This role
+            involves a mix of leadership and technical, as well as data
+            collection, analysis, and reporting.
           </p>
           <p>
-            I am currently seeking freelance and casual contracts while I am
-            completing my studies. If you are interested in working with me,
-            please get in touch.
+            I am open to freelance work both in design and development alongside
+            this employment. If you are interested in working with me, please
+            get in touch.
           </p>
           {/* <p className="button">
             <a href="cv.pdf">CV Download</a>
@@ -106,12 +104,6 @@ const HomePage = () => {
               light of covid and its effect on the creative sector, I decided to
               prioritise development moving forward.
             </strong>
-          </p>
-          <p>
-            Since early 2021 I have been studying toward diplomas in web
-            development and software development at The Developers' Institute.
-            This has been a deep dive into everything full-stack, and creating
-            innovative technical solutions.
           </p>
           <p>
             My development experience includes:
