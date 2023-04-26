@@ -1,6 +1,7 @@
 import React from "react";
 import PortfolioIndex from "./portfolioindex";
 import Testimonials from "./testimonials";
+import Feature from "./feature";
 
 //images
 import kodyProfile from "../img/profile4.png";
@@ -13,7 +14,8 @@ import divider3 from "../img/divider4.png";
 
 const HomePage = () => {
   return (
-    <div className="homePage">
+   <div className="homePage">
+    <Feature />
       <div className="homeIntro">
         <div className="homeBlurb">
           <h1>Hi, I'm Kody.</h1>

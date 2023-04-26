@@ -390,6 +390,14 @@ ul li {
     grid-area: about;
   }
 
+  .featuredProjectLeft {
+    grid-area: featuredLeft;
+  }
+  
+  .featuredProjectRight {
+    grid-area: featuredRight;
+  }
+
   /* grid layouts */
 
   .portfolioItems {
@@ -422,6 +430,15 @@ ul li {
     grid-template-areas: "blockLeft blockRight";
     text-align: left;
     padding: 0 2rem;
+  }
+
+  .featuredProject {
+    display:grid;
+    grid-template-columns: 3fr 2fr;
+    grid-template-rows: auto;
+    grid-template-areas: "featuredLeft featuredRight";
+    gap: 2rem;
+    padding: 2rem;
   }
 
   /* end of grid styling */
