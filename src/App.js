@@ -8,7 +8,7 @@ import PageBody from "./components/pageBody";
 
 function App() {
   const styles = {
-    backgroundImage: "url(/purple-background.jpg)",
+    backgroundImage: "url(/backgroundBrick.png)",
     backgroundPosition: "top center",
     backgroundSize: "cover",
     backgroundAttachment: "fixed",

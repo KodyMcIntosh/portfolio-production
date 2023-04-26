@@ -1,7 +1,7 @@
 import React from "react";
 import { useForm, ValidationError } from "@formspree/react";
 
-import contactImage from "../img/contact.png";
+import contactImage from "../img/contactNew.png";
 
 const Contact = () => {
   const [state, handleSubmit] = useForm("mwkyrgjz");

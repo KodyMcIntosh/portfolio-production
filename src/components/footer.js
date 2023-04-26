@@ -7,7 +7,7 @@ const Footer = () => {
       <div className="footerContainer">
         <p>
           <span className="footerText">
-            &copy; 2022 Kody McIntosh - All Rights Reserved
+            &copy; 2023 Kody McIntosh - All Rights Reserved
           </span>{" "}
           |{" "}
           <Link to="/privacy" style={{ textDecoration: "none" }}>

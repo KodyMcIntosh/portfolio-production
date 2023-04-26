@@ -1,19 +1,21 @@
 import React from "react";
 import PortfolioIndex from "./portfolioindex";
 import Testimonials from "./testimonials";
+import { Link } from "react-router-dom";
 
 //images
-import kodyProfile from "../img/profile4.png";
-import computerDev from "../img/computer-dev.png";
-import phoneCreative from "../img/phone-creative.png";
-import managementIcon from "../img/management.png";
+import kodyProfile from "../img/profileNew.png";
+import computerDev from "../img/computerDevNew.png";
+import phoneCreative from "../img/phoneCreativeNew.png";
+import managementIcon from "../img/managementNew.png";
 import divider1 from "../img/divider2.png";
 import divider2 from "../img/divider3.png";
 import divider3 from "../img/divider4.png";
 
 const HomePage = () => {
   return (
-    <div className="homePage">
+    <>
+   <div className="homePage">
       <div className="homeIntro">
         <div className="homeBlurb">
           <h1>Hi, I'm Kody.</h1>
@@ -21,23 +23,16 @@ const HomePage = () => {
             <strong>I'm a graphic designer turned web developer.</strong>
           </p>
           <p>
-            I have spent over ten years working in the creative sector, with
-            specialisation in both brand and web. For many of these years I
-            focussed on WordPress based builds, however I have now moved into
-            full-stack development more thoroughly.
+          With over ten years of experience in the creative sector, I have specialised in brand and web development. Recently I have retrained in full-stack development with a focus on Javascript based work, taking on new challenges and expanding my technical expertise.
           </p>
           <p>
-            I am currently employed as the Learner Success Team Lead at
-            Developers Institute, ensuring that our learners have everything
-            they need to be successful in their studies with us. This role
-            involves a mix of leadership and technical, as well as data
-            collection, analysis, and reporting.
+          In my role as the Learner Success Team Lead at Developers Institute, my focus is on ensuring that our learners have everything they need to get the most out of their learning experience, and that my team is fully equipped to enable this success. This includes providing technical leadership and support, as well as creating an environment that fosters collaboration and innovation. I am constantly seeking out new ways to improve our support for our learners, as well as further my own professional growth.
           </p>
           <p>
-            I am open to freelance work both in design and development alongside
-            this employment. If you are interested in working with me, please
-            get in touch.
+          I am open to freelance work in both design and development, and I am eager to take on new challenges that will further expand my technical capabilities. If you're interested in collaborating with me, please get in touch.
           </p>
+
+          <Link to="/contact"><p className="button">Contact Me</p></Link>
           {/* <p className="button">
             <a href="cv.pdf">CV Download</a>
           </p> */}
@@ -45,6 +40,12 @@ const HomePage = () => {
         <div className="homePhoto">
           <img src={kodyProfile} alt="Kody McIntosh" />
         </div>
+      </div>
+
+      <h2>Portfolio</h2>
+      <div className="featuredProject">
+        
+        <PortfolioIndex />
       </div>
 
       <div className="divider">
@@ -165,15 +166,12 @@ const HomePage = () => {
         </div>
       </div>
 
-      <div className="featuredProject">
-        <h2>Portfolio</h2>
-        <PortfolioIndex />
-      </div>
       <div className="testimonials">
         <h2>Testimonials</h2>
         <Testimonials />
       </div>
     </div>
+    </>
   );
 };
 

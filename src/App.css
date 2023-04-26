@@ -45,7 +45,7 @@ h2 {
 }
 
 .homeIntro {
-  padding: 0rem 2rem;
+  padding: 2rem;
   margin-bottom: 2rem;
 }
 
@@ -135,7 +135,65 @@ ul li {
   width: 100%;
 }
 
+.button {
+  background-image: linear-gradient(#b70202, #8c0303);
+  font-weight: bold;
+  border: 1px solid #b70202;
+  border-radius: 0.5rem;
+  padding: 0.7rem 2rem;
+}
+
+.button a {
+  color: #fff;
+}
+
 /* small mobile layout */
+
+.homeIntro {
+  grid-area: homeIntro;
+}
+
+.homeBlurb {
+  grid-area: homeBlurb;
+}
+
+.homePhoto {
+  grid-area: homePhoto;
+}
+
+.featuredProjectLeft {
+  grid-area: featuredLeft;
+}
+
+.featuredProjectRight {
+  grid-area: featuredRight;
+}
+
+.homeIntro {
+  display: grid;
+  grid-template-columns: auto;
+  grid-template-rows: auto auto;
+  grid-template-areas: "homePhoto"
+  "homeBlurb";
+}
+
+.feature {
+  display:grid;
+  grid-template-columns: auto;
+  grid-template-rows: auto auto;
+  grid-template-areas: "featuredRight"
+  "featuredLeft";
+  gap: 2rem;
+}
+
+.button {
+  text-align: center;
+}
+
+.featuredProject {
+  background-color: rgba(0, 0, 0, 0.6);
+  padding: 2rem;
+}
 
 .homePage img,
 .about img,
@@ -366,18 +424,7 @@ ul li {
     grid-area: itemInfo;
   }
 
-  .homeIntro {
-    grid-area: homeIntro;
-  }
-
-  .homeBlurb {
-    grid-area: homeBlurb;
-  }
-
-  .homePhoto {
-    grid-area: homePhoto;
-  }
-
+  
   .blockLeft {
     grid-area: blockLeft;
   }
@@ -389,6 +436,8 @@ ul li {
   .about {
     grid-area: about;
   }
+
+
 
   /* grid layouts */
 
@@ -405,9 +454,10 @@ ul li {
 
   .homeIntro {
     display: grid;
-    grid-template-columns: 1fr 1fr 1fr;
+    grid-template-columns: 1fr 1fr;
     grid-template-rows: auto;
-    grid-template-areas: "homeBlurb homeBlurb homePhoto";
+    grid-template-areas: "homeBlurb homePhoto";
+    gap: 2rem;
   }
 
   .creativeBlock,
@@ -422,6 +472,14 @@ ul li {
     grid-template-areas: "blockLeft blockRight";
     text-align: left;
     padding: 0 2rem;
+  }
+
+  .feature {
+    display:grid;
+    grid-template-columns: 3fr 2fr;
+    grid-template-rows: auto;
+    grid-template-areas: "featuredLeft featuredRight";
+    gap: 2rem;
   }
 
   /* end of grid styling */
@@ -492,6 +550,33 @@ ul li {
 
   /* elements */
 
+  .feature {
+    background-color: rgba(0, 0, 0, 0.5);
+  }
+
+  .featuredProjectLeft {
+    background-color: rgba(0, 0, 0, 0.5);
+    padding: 2rem;
+    box-shadow: 2rem 0 2rem 0  #000;
+  }
+
+  .featuredProjectRight {
+    padding:2rem;
+  }
+
+  .featuredProjectRight p {
+    text-align: center;
+  }
+
+  .feature img {
+    max-width:25rem !important;
+
+  }
+
+  .feature .button, .homeIntro .button {
+    max-width: fit-content;
+  }
+
   .contactForm button {
     padding: 0.7rem 2rem;
     font-weight: bold;
@@ -499,18 +584,6 @@ ul li {
     color: #fff;
     border: 1px solid #b70202;
     border-radius: 0.5rem;
-  }
-
-  .button {
-    background-image: linear-gradient(#b70202, #8c0303);
-    font-weight: bold;
-    border: 1px solid #b70202;
-    border-radius: 0.5rem;
-    padding: 0.7rem 2rem;
-  }
-
-  .button a {
-    color: #fff;
   }
 
   .contactForm button:hover {
