@@ -45,7 +45,7 @@ h2 {
 }
 
 .homeIntro {
-  padding: 0rem 2rem;
+  padding: 2rem;
   margin-bottom: 2rem;
 }
 
@@ -413,9 +413,10 @@ ul li {
 
   .homeIntro {
     display: grid;
-    grid-template-columns: 1fr 1fr 1fr;
+    grid-template-columns: 1fr 1fr;
     grid-template-rows: auto;
-    grid-template-areas: "homeBlurb homeBlurb homePhoto";
+    grid-template-areas: "homeBlurb homePhoto";
+    gap: 2rem;
   }
 
   .creativeBlock,
@@ -432,7 +433,7 @@ ul li {
     padding: 0 2rem;
   }
 
-  .featuredProject {
+  .feature {
     display:grid;
     grid-template-columns: 3fr 2fr;
     grid-template-rows: auto;
@@ -508,8 +509,7 @@ ul li {
 
   /* elements */
 
-  .featuredProject {
-
+  .feature {
     background-color: rgba(0, 0, 0, 0.5);
   }
 
@@ -521,6 +521,19 @@ ul li {
 
   .featuredProjectRight {
     padding:2rem;
+  }
+
+  .featuredProjectRight p {
+    text-align: center;
+  }
+
+  .feature img {
+    max-width:25rem !important;
+
+  }
+
+  .feature .button, .homeIntro .button {
+    max-width: fit-content;
   }
 
   .contactForm button {

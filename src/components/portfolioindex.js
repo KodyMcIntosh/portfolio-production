@@ -1,9 +1,12 @@
 import React from "react";
 import { Link } from "react-router-dom";
 import portfolioData from "./portfolioData";
+import Feature from "./feature";
 
 const PortfolioIndex = () => {
   return (
+    <>
+    <Feature />
     <div className="portfolioGrid">
       <ul>
         {Object.entries(portfolioData).map(
@@ -29,6 +32,7 @@ const PortfolioIndex = () => {
         )}
       </ul>
     </div>
+    </>
   );
 };
 

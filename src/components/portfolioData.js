@@ -86,8 +86,6 @@ const portfolioData = {
     subtitle: "Website",
     projectBrief: "Design and build a website based on a newly created brand.",
     description: `<p>This Is Electric is an Auckland-based electrician business. Their existing website wasn't performing well for them, and they needed a full overhaul to meet their needs within their industry. I worked with them to design, build, and create all of the content on their new site. This meant getting to know their points of difference, and their services well enough to create useful and meaningful copy to accompany the design.</p>
-
-    <p className="button"><a href="https://thisiselectric.co.nz/" target="_blank" rel="noreferrer">View Live Site</a></p>
 `,
     technicalSpec:
       "<p>Built using WordPress. Optimised for page speed, accessibility, mobile responsiveness, easy updates.</p>",
