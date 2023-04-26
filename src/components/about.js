@@ -34,8 +34,7 @@ const About = () => {
           </ul>
         </p>
         <p>
-          Outside of work I am also a musician, performer, and my dog's biggest
-          fan. I'm a pragmatic go-getter, and I apply this to all areas of my
+          Outside of work I am also a musician, performer, and my dog's biggest fan. I'm a pragmatic go-getter, and I apply this to all areas of my
           life.
         </p>
 
