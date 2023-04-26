@@ -135,7 +135,65 @@ ul li {
   width: 100%;
 }
 
+.button {
+  background-image: linear-gradient(#b70202, #8c0303);
+  font-weight: bold;
+  border: 1px solid #b70202;
+  border-radius: 0.5rem;
+  padding: 0.7rem 2rem;
+}
+
+.button a {
+  color: #fff;
+}
+
 /* small mobile layout */
+
+.homeIntro {
+  grid-area: homeIntro;
+}
+
+.homeBlurb {
+  grid-area: homeBlurb;
+}
+
+.homePhoto {
+  grid-area: homePhoto;
+}
+
+.featuredProjectLeft {
+  grid-area: featuredLeft;
+}
+
+.featuredProjectRight {
+  grid-area: featuredRight;
+}
+
+.homeIntro {
+  display: grid;
+  grid-template-columns: auto;
+  grid-template-rows: auto auto;
+  grid-template-areas: "homePhoto"
+  "homeBlurb";
+}
+
+.feature {
+  display:grid;
+  grid-template-columns: auto;
+  grid-template-rows: auto auto;
+  grid-template-areas: "featuredRight"
+  "featuredLeft";
+  gap: 2rem;
+}
+
+.button {
+  text-align: center;
+}
+
+.featuredProject {
+  background-color: rgba(0, 0, 0, 0.6);
+  padding: 2rem;
+}
 
 .homePage img,
 .about img,
@@ -366,18 +424,7 @@ ul li {
     grid-area: itemInfo;
   }
 
-  .homeIntro {
-    grid-area: homeIntro;
-  }
-
-  .homeBlurb {
-    grid-area: homeBlurb;
-  }
-
-  .homePhoto {
-    grid-area: homePhoto;
-  }
-
+  
   .blockLeft {
     grid-area: blockLeft;
   }
@@ -390,13 +437,7 @@ ul li {
     grid-area: about;
   }
 
-  .featuredProjectLeft {
-    grid-area: featuredLeft;
-  }
-  
-  .featuredProjectRight {
-    grid-area: featuredRight;
-  }
+
 
   /* grid layouts */
 
@@ -543,18 +584,6 @@ ul li {
     color: #fff;
     border: 1px solid #b70202;
     border-radius: 0.5rem;
-  }
-
-  .button {
-    background-image: linear-gradient(#b70202, #8c0303);
-    font-weight: bold;
-    border: 1px solid #b70202;
-    border-radius: 0.5rem;
-    padding: 0.7rem 2rem;
-  }
-
-  .button a {
-    color: #fff;
   }
 
   .contactForm button:hover {
