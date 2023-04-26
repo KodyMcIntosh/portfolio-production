@@ -438,7 +438,6 @@ ul li {
     grid-template-rows: auto;
     grid-template-areas: "featuredLeft featuredRight";
     gap: 2rem;
-    padding: 2rem;
   }
 
   /* end of grid styling */
@@ -508,6 +507,21 @@ ul li {
   }
 
   /* elements */
+
+  .featuredProject {
+
+    background-color: rgba(0, 0, 0, 0.5);
+  }
+
+  .featuredProjectLeft {
+    background-color: rgba(0, 0, 0, 0.5);
+    padding: 2rem;
+    box-shadow: 2rem 0 2rem 0  #000;
+  }
+
+  .featuredProjectRight {
+    padding:2rem;
+  }
 
   .contactForm button {
     padding: 0.7rem 2rem;
