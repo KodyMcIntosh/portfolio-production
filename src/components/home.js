@@ -33,9 +33,6 @@ const HomePage = () => {
           </p>
 
           <Link to="/contact"><p className="button">Contact Me</p></Link>
-          {/* <p className="button">
-            <a href="cv.pdf">CV Download</a>
-          </p> */}
         </div>
         <div className="homePhoto">
           <img src={kodyProfile} alt="Kody McIntosh" />
