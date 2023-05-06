@@ -12,7 +12,7 @@ Welcome to my portfolio site repo. This site has been built using ReactJS with t
 
 If you wish to run the site locally, you can do so by using **'npm start'**. This will install all necessary dependencies, deploy the local development environments, and make them available to view on your browser at [http://localhost:3000](http://localhost:3000) to view it in your browser. Please note that if you already have something running on port 3000, you should be given the option to open this on an alternative. 
 
-### `Unit Testing`
+## Unit Testing
 
 This site has a very simple passing front end test included in it. This is to demonstrate that I understand how unit tests operate within a ReactJS environment. To run the tests you can use **'npm test'**.
 
