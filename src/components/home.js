@@ -29,7 +29,7 @@ const HomePage = () => {
           From there I was employed by Developers Institute as the Learner Success Team Lead. This role involved leading a team of Junior Trainers, using agile methodologies to ensure the delivery of learning materials to students. It also encompassed technical development, project planning and management, liaison with the executive team, data collection, analysis, and reporting.
           </p>
           <p>
-          I am currently looking for a long-term role that I can grow in and commit to. Ideally this will be a mix of technical and leadership in an agile environment. I am constantly seeking out new ways to foster collaboration amongst my team as well as further my own professional growth.I am also open to freelance opportunities alongside this both in creative and web development.
+          I am currently looking for a long-term role that I can grow in and commit to. Ideally this will be a mix of technical and leadership in an agile environment. I am constantly seeking out new ways to foster collaboration amongst my team as well as further my own professional growth. I am also open to freelance opportunities alongside this both in creative and web development.
           </p>
 
           <Link to="/contact"><p className="button">Contact Me</p></Link>
