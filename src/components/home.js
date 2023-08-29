@@ -20,16 +20,16 @@ const HomePage = () => {
         <div className="homeBlurb">
           <h1>Hi, I'm Kody.</h1>
           <p>
-            <strong>I'm a graphic designer turned web developer.</strong>
+            <strong>I'm a graphic designer turned web developer and agile manager.</strong>
           </p>
           <p>
-          With over ten years of experience in the creative sector, I have specialised in brand and web development. Recently I have retrained in full-stack development with a focus on Javascript based work, taking on new challenges and expanding my technical expertise.
+          I have spent over ten years working in the creative sector, with specialisation in both brand and web. For many of these years I focussed on WordPress based builds, however I always wanted to get more into the technical side of things. Over the past few years I retrained as a full-stack developer, and upskilled through agile training and management. 
           </p>
           <p>
-          In my role as the Learner Success Team Lead at Developers Institute, my focus is on ensuring that our learners have everything they need to get the most out of their learning experience, and that my team is fully equipped to enable this success. This includes providing technical leadership and support, as well as creating an environment that fosters collaboration and innovation. I am constantly seeking out new ways to improve our support for our learners, as well as further my own professional growth.
+          From there I was employed by Developers Institute as the Learner Success Team Lead. This role involved leading a team of Junior Trainers, using agile methodologies to ensure the delivery of learning materials to students. It also encompassed technical development, project planning and management, liaison with the executive team, data collection, analysis, and reporting.
           </p>
           <p>
-          I am open to freelance work in both design and development, and I am eager to take on new challenges that will further expand my technical capabilities. If you're interested in collaborating with me, please get in touch.
+          I am currently looking for a long-term role that I can grow in and commit to. Ideally this will be a mix of technical and leadership in an agile environment. I am constantly seeking out new ways to foster collaboration amongst my team as well as further my own professional growth.I am also open to freelance opportunities alongside this both in creative and web development.
           </p>
 
           <Link to="/contact"><p className="button">Contact Me</p></Link>
