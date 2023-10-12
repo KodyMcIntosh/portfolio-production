@@ -1,5 +1,5 @@
 import React from "react";
-import logo from "../img/logorev500.png";
+import logo from "../img/logoRev1400Shadow.png";
 import Navigation from "./navigation";
 import { Link } from "react-router-dom";
 
