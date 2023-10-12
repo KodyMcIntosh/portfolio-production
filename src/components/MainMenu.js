@@ -13,13 +13,8 @@ const MainMenu = () => {
             </Link>
           </li>
           <li>
-            <Link to="techstack" style={{ textDecoration: "none" }}>
-              Tech Stack
-            </Link>
-          </li>
-          <li>
             <Link to="portfolio" style={{ textDecoration: "none" }}>
-              Our Work
+              Portfolio
             </Link>
           </li>
           <li>
